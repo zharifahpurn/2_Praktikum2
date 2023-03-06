@@ -40,10 +40,10 @@
             <div class="form-group row">
                 <label for="matkul" class="col-4 col-form-label">Mata Kuliah</label> 
                 <div class="col-8">
-                    <select id="matkul" name="matkul" class="custom-select">
+                    <select name="matkul" class="custom-select">
                         <option value="DDP">Dasar-Dasar Pemrograman</option>
                         <option value="BDI">Basis Data I</option>
-                        <option value="WEB1">Pemograman Web 1</option>
+                        <option value="WEB1">Pemrograman Web 1</option>
                     </select>
                 </div>
             </div>
@@ -90,9 +90,11 @@
     echo '<br/> Nilai Tugas Praktikum : ' . $nilai_tugas;
     ?>
 
-    <footer class="bg-light text-lg-start fixed-bottom">
-        <div class="text-left p-3" style="background-color: #e7e7e6;">
-            Develop by Zharifah Dzikra Purnomo @2023
+    <footer class="main-footer bg-light fixed-bottom">
+        <div class="container">
+            <div class="pull-left p-3">
+                Develop by Zharifah Dzikra Purnomo @2023
+            </div>
         </div>
     </footer>
 </body>
